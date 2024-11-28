@@ -1,0 +1,18 @@
+{
+    "name": "ledgerchain/ledgerchain",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ledgerchain\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tyde81",
+            "email": "pedrohfonseca.1981@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^7.1"
+    }
+}
