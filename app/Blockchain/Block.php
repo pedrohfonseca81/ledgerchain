@@ -14,7 +14,7 @@ class Block
     public int $difficulty;
     public int $nonce;
 
-    public function __construct(int $index, string $hash, string | null $previousHash, DateTime $timestamp, string $data,  int $difficulty, int $nonce)
+    public function __construct(int $index, string $data, DateTime $timestamp, string $hash, string | null $previousHash, int $difficulty = 0, int $nonce = 0)
     {
         $this->index = $index;
         $this->previousHash = $previousHash;
